@@ -12,7 +12,7 @@ export class Particle {
 		this.alpha = 1;
 		this.friction = 0.99;
 	}
-
+	asa;
 	draw() {
 		this.context.save();
 		this.context.globalAlpha = this.alpha;
